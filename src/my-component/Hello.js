@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-class Hello extends Component {
-  render() {
-    return <h1>this is class component</h1>;
-  }
+function Hello(props){
+  return <h1>Hello {props.name} . Your age is {props.age}</h1>
 }
 
 export default Hello;
